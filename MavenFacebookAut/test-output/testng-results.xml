@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-10T11:18:10 IST" name="Failed suite [Suite]" finished-at="2023-04-10T11:18:23 IST" duration-ms="12857">
+    <groups>
+    </groups>
+    <test started-at="2023-04-10T11:18:10 IST" name="chromeTest(failed)" finished-at="2023-04-10T11:18:23 IST" duration-ms="12857">
+      <class name="TestNgPack.TestNgForSignUpPupup">
+        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:TestNgPack.TestNgForSignUpPupup@647e447]" started-at="2023-04-10T11:18:10 IST" name="beforeSuit" finished-at="2023-04-10T11:18:10 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestNgPack.TestNgForSignUpPupup@647e447]" started-at="2023-04-10T11:18:10 IST" name="openBrowser" finished-at="2023-04-10T11:18:13 IST" duration-ms="2932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:TestNgPack.TestNgForSignUpPupup@647e447]" started-at="2023-04-10T11:18:13 IST" name="createPOMObject" finished-at="2023-04-10T11:18:13 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="goToSignUpPopup()[pri:0, instance:TestNgPack.TestNgForSignUpPupup@647e447]" started-at="2023-04-10T11:18:13 IST" name="goToSignUpPopup" finished-at="2023-04-10T11:18:19 IST" duration-ms="5509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPopup -->
+        <test-method signature="test4()[pri:5, instance:TestNgPack.TestNgForSignUpPupup@647e447]" started-at="2023-04-10T11:18:19 IST" name="test4" finished-at="2023-04-10T11:18:19 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNgPack.TestNgForSignUpPupup@647e447]" started-at="2023-04-10T11:18:19 IST" name="afterMethod" finished-at="2023-04-10T11:18:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="goToSignUpPopup()[pri:0, instance:TestNgPack.TestNgForSignUpPupup@647e447]" started-at="2023-04-10T11:18:19 IST" name="goToSignUpPopup" finished-at="2023-04-10T11:18:23 IST" duration-ms="3899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPopup -->
+        <test-method signature="test3()[pri:4, instance:TestNgPack.TestNgForSignUpPupup@647e447]" started-at="2023-04-10T11:18:23 IST" name="test3" finished-at="2023-04-10T11:18:23 IST" depends-on-methods="TestNgPack.TestNgForSignUpPupup.test4" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNgPack.TestNgForSignUpPupup@647e447]" started-at="2023-04-10T11:18:23 IST" name="afterMethod" finished-at="2023-04-10T11:18:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="clearObjects()[pri:0, instance:TestNgPack.TestNgForSignUpPupup@647e447]" started-at="2023-04-10T11:18:23 IST" name="clearObjects" finished-at="2023-04-10T11:18:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjects -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:TestNgPack.TestNgForSignUpPupup@647e447]" started-at="2023-04-10T11:18:23 IST" name="closedBrowser" finished-at="2023-04-10T11:18:23 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+        <test-method is-config="true" signature="afterSuit()[pri:0, instance:TestNgPack.TestNgForSignUpPupup@647e447]" started-at="2023-04-10T11:18:23 IST" name="afterSuit" finished-at="2023-04-10T11:18:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- TestNgPack.TestNgForSignUpPupup -->
+    </test> <!-- chromeTest(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>
